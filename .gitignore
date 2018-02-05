@@ -1,0 +1,98 @@
+# By CTM Team
+
+build/
+dist/
+*.log
+*.err
+*.error
+*.spec
+*egg-info
+
+# Repository specific
+Gonsole/
+*.orig
+
+# Anthill
+trigger
+
+# IDA - InfoSphere
+*.oslc
+
+# Forms & Oracle
+*.fmx
+*.mmx
+*.rdx
+*.err
+*.plx
+*.old
+*_old.*
+
+# For MAC/iOS
+__MACOSX
+# Remove the classes/ for MAC
+
+# ClearCase redundent files
+lost\+found/
+*.keep
+*.keep.*
+*.unloaded
+*.unloaded.*
+*.mkelem
+*.mkelem.*
+*.contrib
+*.contrib.*
+*.loading
+*.loading.*
+*.merge
+*.merge.*
+*.hijacked
+*.hijacked.*
+*.checkedout
+*.checkedout.*
+
+# JAVA compile
+*.class
+*.jar
+*.war
+*.ear
+[tT]arget/
+# NOT for MAC iOS
+classes/
+
+# Eclipse
+.settings/
+.apt_generated/
+
+
+# Defaults
+.svn
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+Backup/
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+*.orig
